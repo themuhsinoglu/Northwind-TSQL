@@ -155,8 +155,8 @@ from Territories t full join Region r
 
 --Chai ürününü tedarik ettigim tedarikçimin ismini, adresini ve telefon numarasini listeleyiniz
 select CompanyName,[Address],Phone
-from Products p full join Suppliers s
-				on p.SupplierID = s.SupplierID
+from Products p full join Suppliers s on p.SupplierID = s.SupplierID
+				
 where ProductName = 'chai'
 			
 
